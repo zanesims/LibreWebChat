@@ -1,0 +1,126 @@
+/*
+ *  Part of LibreWebChat
+ *  Copyright (c) 2015, Zane Sims
+ *  License details in 'license.txt'
+ */
+
+* {
+	font-family:Arial, sans-serif;
+}
+body {
+	color:black;
+	background-color:white;
+}
+#top_header {
+	background-color:lightgray;
+	border:1px black solid;
+}
+h2 {
+	background-color:lightgray;
+	color:black;
+	border-width:1px 1px 0 1px;
+	border-color:black;
+	border-style:solid;
+}
+.context_menu {
+	background-color:white;
+	border:1px black solid;
+}
+.context_menu a {
+	color:black;
+}
+.context_title {
+	border-bottom: solid 1px black;
+}
+.context_disabled,
+.option_text_disabled {
+	color:gray;
+}
+#audio_options_box {
+	background-color:white;
+	border:1px black solid;
+}
+#color_options_box {
+	background-color:white;
+	border:1px black solid;
+}
+.menu_section_header {
+	font-weight:bold;
+	border-bottom:1px solid black;
+}
+#emoticon_box {
+	background-color:white;
+	border:1px black solid;
+}
+.toolbar_select {
+	font-family: "Lucida Console", Monaco, monospace;
+	color:black;
+	background-color:white;
+	border:1px solid black;
+}
+#send_button {
+	border:1px outset black;
+}
+.toggle_button_0 {
+	font-family: "Lucida Console", Monaco, monospace;
+	color:black;
+	background-color:white;
+	border:2px black outset;
+}
+.toggle_button_1 {
+	font-family: "Lucida Console", Monaco, monospace;
+	color:black;
+	background-color:grey;
+	border:2px black inset;
+}
+#input_box {
+	background-color:white;
+	border:1px solid black;
+}
+#chat_box {
+	background-color:white;
+	border:1px solid black;
+}
+.sys_msg {
+	color:black;
+}
+.mod_msg {
+	color:red;
+}
+.action_msg {
+	color:grey;
+}
+#users_box {
+	background-color:white;
+	border:1px solid black;
+}
+#users_box a {
+	color:black;
+}
+#convs_box {
+	background-color:white;
+	border:1px solid black;
+}
+.context_menu a:hover,
+#users_box a:hover,
+#convs_box a:hover,
+#emoticon_box img:hover {
+	color:white;
+	background-color:black;
+}
+.context_disabled:hover {
+	background-color:black;
+}
+.clink_active {
+	color:black;
+	background-color:darkgray;
+	border-top:1px dotted black;
+	border-bottom:1px dotted black;
+}
+.clink_inactive {
+	color:black;
+}
+#help_box {
+	color:black;
+	background-color:white;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="15"
+   height="15"
+   viewBox="0 0 15 15"
+   id="svg3485"
+   version="1.1">
+  <defs
+     id="defs3487" />
+  <metadata
+     id="metadata3490">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     id="path3176"
+     style="opacity:1;fill:#fffa72;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     cx="7.5000019"
+     cy="7.4999962"
+     r="7" />
+  <circle
+     style="opacity:1;fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path3178"
+     cx="5.5000019"
+     cy="4.4999962"
+     r="1" />
+  <circle
+     id="path3180"
+     style="opacity:1;fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     cx="9.5000019"
+     cy="4.4999962"
+     r="1" />
+  <path
+     style="opacity:1;fill:none;fill-opacity:1;stroke:#00cfff;stroke-width:0.92737615;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 11.533968,11.939131 c 0,-1.888723 -0.106722,-1.888723 -0.220559,-1.888723"
+     id="path3466" />
+  <path
+     style="opacity:1;fill:none;fill-opacity:1;stroke:#00cfff;stroke-width:1.02643037;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 9.415351,10.47777 c 0,-0.8001917 -0.3085856,-0.8001917 -0.6377454,-0.8001917"
+     id="path3466-9" />
+  <path
+     id="path3182"
+     d="m 3.50001,9.50003 8,0"
+     style="opacity:1;fill:#ff8d72;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+</svg>

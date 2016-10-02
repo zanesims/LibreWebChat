@@ -1,0 +1,56 @@
+Part of LibreWebChat
+Copyright (c) 2015, Zane Sims
+License details in 'license.txt'
+
+MESSAGES ACCEPTED BY SERVER
+============================
+
+Connection request:
+	<connection request>
+
+Authentication request:
+	auth
+	<user>
+	<proflink>
+	<hashcode>
+
+Move to / create room request:
+	move
+	<from room>
+	<to room>
+	<password> (blank line for unprotected rooms)
+
+Send room message:
+	rmsg
+	<room>
+	<biu>
+	<html color>
+	<the message>
+
+Send private message:
+	pmsg
+	<to user>
+	<biu>
+	<html color>
+	<message>
+
+Mod kicks a user:
+	kick
+	<user>
+
+Mod bans user:
+	ban
+	<user>
+
+Mod deletes room:
+	droom
+	<room>
+
+Mod message to all users:
+	broadcast
+	<message>
+
+Mod message to all mods:
+	modmsg
+	<message>
+

@@ -1,0 +1,105 @@
+Part of LibreWebChat
+Copyright (c) 2015, Zane Sims
+License details in 'license.txt'
+
+MESSAGES ACCEPTED BY CLIENTS
+=============================
+
+Connection accepted:
+	ready
+
+Authentication failed:
+	auth-fail
+
+Authentication failed due to being banned:
+	auth-banned
+
+Authentication failed due to being kicked:
+	auth-kicked
+	<duration> (in hours)
+
+Authentication passed:
+	auth-pass
+	r<room1>
+	u<TAB><user1><TAB><proflink>
+	u<TAB><user2><TAB><proflink>
+	r<room2>
+	u<TAB><user3><TAB><proflink>
+	m<TAB><mod1><TAB><proflink>
+	s<secure room1>
+	u<TAB><user4><TAB><proflink>
+	(etc...)
+	
+User logs in (start in Main Lobby):
+	join
+	<user>
+	<proflink>
+
+User disconnects:
+	disconnect
+	<user>
+
+Notice that user moved:
+	move
+	<user>
+	<from room>
+	<to room>
+	<type> (r=regular, s=secure)
+
+Fail reply to request to move:
+	move-fail-password
+
+Failed request to move due to room name/pwd length
+	move-fail-length
+
+Room chat message:
+	rmsg
+	<user>
+	<biu>
+	<html color>
+	<message>
+
+Private chat message to a user:
+	pmsg
+	<from user>
+	<biu>
+	<html color>
+	<message>
+
+Private chat message confirm echo back to sender
+	pmsg-echo
+	<to user>
+	<biu>
+	<html color>
+	<message>
+
+General server message to user(s):
+	smsg
+	<message>
+
+Mod kicks a user:
+	kicked
+	<user>
+	<mod>
+	<duration> (in hours)
+
+Mod bans user:
+	banned
+	<user>
+	<mod>
+
+Mod deletes room:
+	droom
+	<room>
+	<mod>
+
+Mod message to all users:
+	broadcast
+	<mod>
+	<message>
+
+Mod message to all mods:
+	modmsg
+	<mod>
+	<message>
+	

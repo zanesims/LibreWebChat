@@ -1,0 +1,23 @@
+Part of LibreWebChat
+Copyright (c) 2015, Zane Sims
+License details in 'license.txt'
+
+MESSAGE COMMANDS
+=================
+
+S = Commands sent to server
+- = Commands not sent to server
+
+TYPE	COMMAND				DESCRIPTION
+---------------------------------------------------------------------
+S		/a msg				Action message
+S		/join "room" "pwd"	Join a room (creates it if non-existent)
+-		/ignore user		Ignore a user
+-		/listen user		Start listening to a user again
+-		/where user			Display which room a user is in
+S		/kick user			Mod kick a user
+S		/ban user			Mod ban a user
+S		/droom room			Mod delete a room
+S		/bcast msg			Mod broadcast a message to all users
+S		/modmsg msg			Mod message to all Mods
+

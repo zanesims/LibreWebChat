@@ -1,0 +1,10 @@
+Licenses
+===========
+
+1. Unless otherwise noted, the files of this distribution are licensed under the GNU GPL License version 3.0. The text file </gpl-3.0.txt> contains the text of the license.
+
+2. </server/websockets>: All files under this directory were obtained at <https://github.com/aaugustin/websockets>. The license it was distributed with is in </server/websockets/license.txt>.
+
+3. </www/imgs>: All files under this directory are originals or deravatives obtained in the public domain.
+
+4. </www/audio>: All files in this directory were obtained from various public sources and are distributed for any use without need for attribution.

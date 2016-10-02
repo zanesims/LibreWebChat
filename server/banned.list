@@ -1,0 +1,15 @@
+# BANNED USERS
+# Comments are preceded by "#"
+#
+# Each line represents a banned user. The format is:
+#
+# username<TAB>ip_address<TAB>timestamp<TAB>banning_moderator
+#
+# Only the username is used by the server. The other data is
+# for informational purposes only. You can manually ban a user
+# by adding their username on a new line in this file. The other
+# info following the username is not required (such as the ip address).
+# The timestamp generated when a user is banned from the web client is
+# representative of the server's local time at the time of the ban.
+
+

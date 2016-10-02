@@ -1,0 +1,293 @@
+/*
+ *  Part of LibreWebChat
+ *  Copyright (c) 2015, Zane Sims
+ *  License details in 'license.txt'
+ */
+
+html {
+	margin:0;
+	padding:0;
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+body {
+	margin:0;
+	padding:0;
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	font-size:1.4em;
+}
+#top_header {
+	margin:0;
+	padding:0.1em;
+	position:fixed;
+	font-size:2.18em;
+	overflow-x:hidden;
+	text-overflow:ellipsis;
+}
+#left_col {
+	padding:0;
+	margin:0;
+	position:fixed;
+	display:inline-block;
+}
+#right_col {
+	padding:0;
+	margin:0;
+	position:fixed;
+}
+h2 {
+	margin:0;
+	padding: 0.2em 0.2em 0.2em 0.3em;
+	font-size:1.18em;
+border-width:1px 1px 0 1px;
+border-color:black;
+border-style:solid;
+	white-space:pre;
+	overflow-x:hidden;
+	text-overflow:ellipsis;
+}
+h2 img {
+	height:0.9em;
+	margin: 0 0.3em 0 0;
+	vertical-align:text-top;
+}
+#click_catcher {
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:100;
+	display:none;
+}
+.context_menu {
+	margin:0;
+	padding:8px 0 8px 0;
+	position:absolute;
+	z-index:700;
+	display:block;
+	visibility:hidden;
+}
+.context_menu a {
+	display:block;
+	padding:0 8px 0 8px;
+	margin:0;
+	text-decoration:none;	
+}
+.context_title {
+	font-weight:bold;
+	margin:0;
+	padding:0 8px 0 8px;
+}
+.context_disabled {
+	cursor:pointer;
+	margin:0;
+	padding:0 8px 0 8px;
+}
+#audio_options_box {
+	padding:0.5em 0;
+	position:absolute;
+	z-index:700;
+	display:block;
+	visibility:hidden;
+}
+#audio_options_box label {
+	margin:0;
+	padding:0 0.5em;
+	display:block;
+}
+#emoticon_box {
+	padding:0.5em;
+	position:absolute;
+	z-index:700;
+	display:block;
+	visibility:hidden;
+}
+#emoticon_box img {
+	cursor:pointer;
+	height:1em;
+	margin:0;
+	padding:4px;
+	border:none;
+}
+#color_options_box {
+	padding:0 0 0.5em 0;
+	position:absolute;
+	z-index:700;
+	display:block;
+	visibility:hidden;
+}
+#color_options_box label {
+	margin:0;
+	padding:0 0.5em;
+	display:block;
+}
+.menu_section_header {
+	margin:0.5em 0 0 0;
+	padding:0 0.5em;
+	display:block;
+}
+#tool_box {
+	/*display:block;*/
+	width:100%;
+	padding:4px 0 4px 0;
+	overflow:auto;
+}
+.toolbar_select {
+	display:inline-block;
+	font-size:1em;
+	
+	padding:0;
+	margin:0 4px;
+	float:left;
+}
+#send_button {
+	border:1px solid black;
+	padding:2px;
+	margin:0;
+	text-decoration:none;
+	display:inline-block;
+}
+.toggle_button_0 {
+	text-decoration:none;
+	margin:0 2px 0 0;
+	padding:1px 6px;
+	display: inline-block;
+	float:left;
+}
+.toggle_button_1 {
+	text-decoration:none;
+	margin:1px 2px 1px 0;
+	padding:1px 6px;
+	border:2px black inset;
+	display:inline;
+	float:left;
+}
+#b_button {
+	font-weight:bold;
+}
+#i_button {
+	font-style:italic;
+}
+#u_button {
+	text-decoration:underline;
+}
+#input_box {
+	display:block;
+	font-size:1em;
+	margin:0;
+	padding:0.1em;
+	width:100%;
+	resize:none;
+	box-sizing:border-box;
+	border:1px solid black;
+	overflow-y: scroll;
+}
+#chat_box {
+	box-sizing:border-box;
+	white-space:pre-wrap;
+	margin:0;
+	padding:0.2em;
+	word-wrap:break-word;
+	overflow-y:scroll;
+	font-size: 1em;
+}
+#chat_box p {
+	margin:0 0 4px 1.5em;
+	text-indent:-1.5em;
+	padding:0;
+	font-size:1em;
+}
+#chat_box img {
+	vertical-align:text-top;
+	margin: 0 1px;
+	height:1em;
+}
+.ulink,
+.rlink,
+.clink_active,
+.clink_inactive {
+	text-decoration:none;
+}
+.sys_msg {
+	font-weight:bold;
+}
+.action_msg {
+	font-style:italic;
+}
+#users_box {
+	margin:0;
+	padding:0;
+	overflow-y:scroll;
+}
+#users_box ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#users_box ul ul {
+	margin-left:1.25em;
+}
+#users_box img {
+	height:.9em;
+	margin:0 4px 0 0;
+	padding:0;
+	vertical-align:text-top;
+}
+#users_box a {
+	display:block;
+	white-space:pre;
+	overflow-x:hidden;
+	text-overflow:ellipsis;
+	padding:4px 0 2px 0.25em;
+	margin:0;
+	text-decoration:none;
+}
+#convs_box {
+	padding:0;
+	margin:0;
+	overflow-y:scroll;
+}
+#convs_box img {
+	height:.9em;
+	margin:0 4px 0 0;
+	padding:0;
+	vertical-align:text-top;
+}
+#convs_box ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#convs_box a {
+	white-space:pre;
+	overflow-x:hidden;
+	text-overflow:ellipsis;
+	display:block;
+	padding:4px 0 2px 0.25em;
+	margin:0;
+	text-decoration:none;
+}
+.clink_active {
+	font-weight:bold;
+}
+#help_box {
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	padding:5% 10%;
+	overflow-y:scroll;
+	display:none;
+}
+.help_table td {
+	padding:.1em .25em .1em .25em;
+}
